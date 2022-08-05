@@ -1,0 +1,116 @@
+<meta charset="UTF-8">
+<h1>PROGRAMA SECRETO2</h1>
+
+<input/>
+<button>Verificar si acertó el secreto</button>
+
+<script>
+    // Funciones basicas
+    function saltarLinea(n) {
+        if (n >= 0) {
+            var contador = 1
+           
+            while (contador <= n) {
+                document.write("<br>");    
+                contador++;
+            }
+       
+        } else {
+            document.write("<br>"); 
+            }
+    }
+
+    function imprimir(frase) {
+        document.write(frase);
+        document.write("<br>"); 
+    }
+
+        //function comando() {}
+    //comando(variable); o comando("string");
+    //if (condicion == <= >= &&) {} else{}
+    //while (condicion == <= >= &&) {ejecucion + break;}
+    //for (iniciador de variable;condicion;sumarizador de la variable) {}
+    //variable.length para indicar todos los datos dentro de un array de []
+    //los array empiezan a contar desde el 0
+
+    // Empieza el codigo
+
+    function aleatorio() {
+        return Math.round(Math.random()*10);
+    }
+
+    function sorteaNumero(cantidad) {
+        var secretos = [];
+        var contador = 1;
+
+        while (contador<=cantidad) {
+
+            var numeroAleatorio = aleatorio();
+            console.log(numeroAleatorio);
+            var encontrado = false; //la variable booleana 
+
+            if (numeroAleatorio != 0) {
+                for (var posicion = 0; posicion < secretos.length; posicion++) {
+                    if (numeroAleatorio == secretos[posicion]){
+                        encontrado = true; // se usara para decidir si repite el loop
+                        break; //no olvidar el break que significa que termina el loop
+                    }
+                }
+
+                if (encontrado == false){
+                //al ser falso crea el numero se pushea el numero al array
+                secretos.push(numeroAleatorio);
+                contador++;
+                }
+
+            }
+
+        }
+
+        return secretos
+    }
+
+
+    var secretos = sorteaNumero(4);
+    //secreto.push(3); envia el contenido de () al array []
+    //secreto.push(sorteaNumero())
+
+    console.log(secretos)
+
+    
+    var input = document.querySelector("input");
+    input.focus();
+
+    function verificar() {
+        
+        var encontrado = false;
+
+        for(var posicion = 0; posicion < secretos.length; posicion++){
+
+            if (parseInt(input.value) == secretos[posicion]) { 
+                 //parseInt(input.value) traerá el valor numerico
+            
+                 alert("Usted acertó"); 
+                 encontrado = true;
+                 break;
+
+            } 
+         }
+
+          if (encontrado == false) {
+        alert("Usted erró");
+
+         }      
+
+        input.value = ""; //para borrar el campo input
+        input.focus(); //para volver a esa casilla
+
+
+    }
+
+    var button = document.querySelector("button"); //llama el elemento HTML como variable
+    button.onclick = verificar; 
+    //sin parentesis, ejecuta el codigo luego de hacer click
+
+
+</script>
