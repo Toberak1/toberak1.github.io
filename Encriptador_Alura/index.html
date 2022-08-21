@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="reset.css">
+        <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="/Encriptador_Alura/style.css">
+        <title>Encriptador</title>
+    </head>
+    <body>
+        <header>
+            <img id="logo" src="/Encriptador_Alura/imagenes/logo.png" alt="Logo de alura">
+            
+        </header>
+        
+        <main>
+            
+            <section>
+                <p class="titulo">Challenge 1 - Desafío encriptador</p>
+                <button class="pegar" onclick="pegar()">Pegar</button>
+                <textarea id="cajaTexto" class="input-texto" cols="40" rows="8" placeholder="Ingrese el texto aqui"></textarea>
+                
+                <div>
+                    <p class="informacion"><img src="/Encriptador_Alura/imagenes/i.png" alt="simbolo de exclamacion">La encriptacion convertirá Mayusculas en minusculas e ignorará caracteres especiales y acentos.</p>
+                </div>
+                
+                <div class="botones">
+                    <button class="encriptar" onclick="btnEncriptar()">
+                        Encriptar
+                    </button>
+                    <button class="desencriptar" onclick="btnDesencriptar()">
+                        Desencriptar
+                    </button>
+                </div>
+
+            </section>        
+            
+            <section class="mensaje-box">
+                <img class="ningunMensaje" src="/Encriptador_Alura/imagenes/ningunMensaje.png" alt="no hay mensaje">
+                <textarea class="mensaje" cols="20" rows="10"></textarea>
+                
+                <button class="copiar" onclick="copiar()">Copiar</button>
+            
+            </section>        
+        </main>
+
+
+    </body>
+        
+    <footer>
+       
+        <button class="toberak" onclick="mostrar()">TOBERAK</button>
+        <p class="firma">&copy; Satoshi 2022 - Buenos Aires. <br> para Alura Latam</p> 
+        
+        <div >
+            <img class="futer" src="imagenes/logoT.png" alt="">
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</html>

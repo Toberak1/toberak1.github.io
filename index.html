@@ -1,58 +1,32 @@
-<meta charset="UTF-8">
-<h1>calculadora</h1>
-
-<script>
-        function saltarLinea(n) {
-        if (n >= 0) {
-
-            var contador = 1
-            
-            while (contador <= n) {
-                document.write("<br>");    
-                contador = contador +1;
-            }
-        } else {
-            document.write("<br>"); 
-            }
-    }
-
-
-    function imprimir(frase){
-        document.write(frase);
-        saltarLinea();
-    }
-
-    var numero1 = parseInt(prompt('Ingrese un número'));
-    var operacion = prompt("definir operacion: + - * /");
-    var numero2 = parseInt(prompt('Ingrese otro número'));
-
-    imprimir(numero1 + operacion + numero2);
-    imprimir("<hr>");
-    
-    if (operacion == "+") {
-        imprimir("suma: ");
-        imprimir(numero1+numero2);
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="reset.css">
+        <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <title>Principal</title>
+    </head>
+    <body>
+        <header>
+            <h1 class="tituloPrincipal">Pgina Principal</h1>
+        </header>
         
-    } else {
-        if (operacion == "-") {
-            imprimir("resta:");
-            imprimir(numero1-numero2);
+        <main>
+            
+        </main>
+
+    </body>
+        
+    <footer>
+       
+        <p class="toberak">TOBERAK</p>
+        <p class="firma">&copy; Satoshi 2022 - Buenos Aires. <br> para Alura Latam</p> 
+        
+        <div >
+            <img class="logo" src="imagenes/logoT.png" alt="">
+        </div>
+    </footer>
     
-        } else {
-            if (operacion == "*") {
-                imprimir("multiplicacion: ");
-                imprimir(numero1*numero2);
-    
-            } else {
-                if (operacion == "/") {
-                    imprimir("division: ");
-                    imprimir(numero1/numero2);
-                }
-            }
-         }
-    }
-
-
-
-
-</script>
+    <script src="script.js"></script>
+</html>

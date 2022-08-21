@@ -1,0 +1,60 @@
+* {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    background: #313131;
+    width: auto;
+    margin: 10px 50px;
+    padding: 5px 5px;
+    border-radius: 10px;
+}
+
+header {
+
+    background: #e0dede;
+}
+
+
+body {
+    background: #e0dede;
+}
+
+
+main {
+    background: #e0dede;
+} 
+
+
+footer{
+    background: #313131;
+    text-align: center;
+    padding: 20px;
+    height: 450px;
+
+}
+
+.logo {
+    height: 150px;
+    }
+
+.toberak {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 48px;
+    color: #D8DFE8;
+    background:#313131;
+    border-width: 0;
+    
+}
+
+.toberak:hover {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    cursor:pointer;
+    transition: 3s;
+}
+
+.firma {
+    font-size: 12px;
+    color: #D8DFE8;
+    font-weight: 400;
+}
+
