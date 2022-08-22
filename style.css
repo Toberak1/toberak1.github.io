@@ -2,31 +2,49 @@
     font-family: "Inter", sans-serif;
     font-weight: 400;
     font-size: 32px;
-    background: #313131;
-    width: auto;
-    margin: 10px 50px;
-    padding: 5px 5px;
     border-radius: 10px;
+    border-width: 0;
+    
 }
-
-header {
-
-    background: #e0dede;
-}
-
 
 body {
-    background: #e0dede;
+    background: #313131;
 }
 
+h1 {
+    font-size: 50px;
+    padding: 50px 0;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.tituloPrincipal {
+    color: #D8DFE8;
+}
 
 main {
     background: #e0dede;
+    color: #313131;
+    font-size: 18px;
+    margin: 0 20px;
+    padding: 10px 10px;
+    line-height: 2;
+    
 } 
 
+.lista1 {
+    margin: 20px 0;
+
+}
+.linksP {
+    text-decoration: solid;
+}
+
+.linksP:hover{
+    text-decoration: underline;
+}
 
 footer{
-    background: #313131;
     text-align: center;
     padding: 20px;
     height: 450px;
@@ -41,7 +59,6 @@ footer{
     font-family: 'Courier New', Courier, monospace;
     font-size: 48px;
     color: #D8DFE8;
-    background:#313131;
     border-width: 0;
     
 }
