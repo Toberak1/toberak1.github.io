@@ -1,0 +1,80 @@
+<head> tiro al blanco! <br></head>
+<canvas width="600" height="400" style="cursor:crosshair"> </canvas>
+
+<script>
+    var pantalla = document.querySelector("canvas");
+    var pincel = pantalla.getContext("2d");
+    pincel.fillStyle = "lightgrey"; //propiedad
+    pincel.fillRect(0,0,600,400); //funcion
+
+    var radio = 10;
+    var xAleatorio;
+    var yAleatorio;
+    var x = 0;
+
+    function disenharCircunferecia(x,y,radio,color){
+        pincel.fillStyle=color;
+        pincel.beginPath();
+        pincel.arc(x,y,radio,0,2*Math.PI/*x,y,radio,angulo inicial,angulo final*/);
+        pincel.fill();
+    }
+
+    function limpiarPantalla(){
+        pincel.clearRect(0,0,600,400);
+        pincel.fillStyle = "lightgrey"; //propiedad
+        pincel.fillRect(0,0,600,400); //funcion
+    }
+
+
+    function actualizarPantalla(){
+        limpiarPantalla();
+        xAleatorio = sortearPosicion(540);
+        yAleatorio = sortearPosicion(340);
+        disenharObjetivo(xAleatorio,yAleatorio);
+        x++;
+     
+    }
+
+    function disenharObjetivo(x,y){
+
+        disenharCircunferecia(x,y,radio +20,"red");
+        disenharCircunferecia(x,y,radio +10,"white");
+        disenharCircunferecia(x,y,radio,"red");
+    }
+
+    function sortearPosicion(maximo) {
+        return Math.floor(Math.random()*maximo);
+    }
+
+    setInterval(actualizarPantalla,3000);
+
+
+    function disparar(evento){
+
+        var x = evento.pageX - pantalla.offsetLeft;
+        var y = evento.pageY - pantalla.offsetTop;
+
+        if ((x < xAleatorio + radio) &&
+            (x > xAleatorio - radio) &&
+            (y < yAleatorio + radio) &&
+            (y > yAleatorio - radio)) {
+
+                alert("Tiro certero");
+            }
+
+        
+    }
+
+    pantalla.onclick = disparar;
+
+    
+
+
+
+
+    
+    
+
+  
+
+</script>

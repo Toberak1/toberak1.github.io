@@ -1,0 +1,79 @@
+<head>pincel cambia en ciclos al tocar click derecho (Gris, azul, rojo, verde, naranja, amarillo) <br></head>
+<canvas width="600" height="400" style="cursor:crosshair"> </canvas>
+
+
+<script>
+    var pantalla = document.querySelector('canvas');
+    var pincel = pantalla.getContext('2d');
+
+    pincel.fillStyle = 'lightgrey';
+    pincel.fillRect(0, 0, 600, 400);
+
+    var puedoDibujar = false;
+
+    var colores = ["grey","blue", "red", "green", "orange", "yellow"];
+    var i = 0;
+
+    function cambiaColor(){
+        i++;
+        if(i>= colores.length){
+            i = 0;
+        }
+
+        pincel.fillStyle = colores[i];
+        pincel.beginPath();
+        pincel.arc(1,1,50,0,2*3.14);
+        pincel.fill();
+     
+                        
+        console.log(i);
+        return  false;
+    }
+
+    pantalla.oncontextmenu = cambiaColor;
+
+
+    function dibujarCirculo(evento) {
+
+        if(puedoDibujar) {
+            var x = evento.pageX - pantalla.offsetLeft;
+            var y = evento.pageY - pantalla.offsetTop;
+            pincel.fillStyle = colores[i];
+            pincel.beginPath();
+            pincel.arc(x, y, 5, 0, 2 * 3.14);
+            pincel.fill();
+        }
+
+    }
+
+    pantalla.onmousemove = dibujarCirculo;
+
+    function habilitarDibujar() {
+
+        puedoDibujar = true;
+    }
+
+    function deshabilitarDibujar() {
+
+        puedoDibujar = false;
+    }
+
+    pantalla.onmousedown = habilitarDibujar;
+
+    pantalla.onmouseup = deshabilitarDibujar;
+
+
+
+
+
+
+</script>
+
+
+
+    
+    
+
+  
+
+</script>
