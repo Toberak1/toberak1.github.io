@@ -10,54 +10,56 @@
     pincel.fillRect(0, 0, 600, 400);
 
     var puedoDibujar = false;
-        
-    var i = 0;
     var color = "blue";
-    var colores = [color,"lightgrey"];
+
+    //variables para paleta
+    var xRojo = 0;
+    var xAzul = 50;
+    var xVerde = 100;
+    var xGris = 150;
+    var yCuad = 0;
+    var tamCuad = 50;
+  
+    function paleta(){
+        paleta1("red",xRojo,yCuad,tamCuad);
+        paleta1("blue",xAzul,yCuad,tamCuad);
+        paleta1("green",xVerde,yCuad,tamCuad);
+        paleta1("lightgrey",xGris,yCuad,tamCuad);
+    }
+
+    function paleta1(pColor,pX,pY,pTam) {
+        pincel.fillStyle = pColor;
+        pincel.fillRect(pX,pY,pTam,pTam);
+        pincel.strokeStyle = "black";
+        pincel.strokeRect(pX,pY,pTam,pTam);
+
+    }
     
-    function paleta() {
-        pincel.fillStyle = "red";
-        pincel.fillRect(550,0,50,50);
-        pincel.fillStyle = "blue";
-        pincel.fillRect(500,0,50,50);
-        pincel.fillStyle = "green";
-        pincel.fillRect(450,0,50,50);
-        pincel.strokeStyle = "grey"
-        pincel.strokeRect(400,0,49,49);
-        pincel.fillStyle = "lightgrey";
-        pincel.fillRect(400,0,50,49);
         
-    }
-    
-    paleta();    
-
-    function elegirColor() {
-
-    }
 
     function elegirColor(evento){
 
         var x = evento.pageX - pantalla.offsetLeft;
         var y = evento.pageY - pantalla.offsetTop;
 
-        if ((x < 500) &&
-            (x > 450) &&
+        if ((x < 150) &&
+            (x > 100) &&
             (y < 50) &&
             (y > 0)) {
 
                color="green";
-            } else if((x < 550) &&
-                    (x > 500) &&
+            } else if((x < 100) &&
+                    (x > 50) &&
                     (y < 50) &&
                     (y > 0)) {
                         color="blue";
-                    } else if ((x < 600) &&
-                                (x > 550) &&
+                    } else if ((x < 50) &&
+                                (x > 0) &&
                                 (y < 50) &&
                                 (y > 0)) {
                                     color="red";
-                                } else if((x < 450) &&
-                                            (x > 400) &&
+                                } else if((x < 200) &&
+                                            (x > 150) &&
                                             (y < 50) &&
                                             (y > 0)) {
                                                 color="lightgrey";
@@ -79,21 +81,22 @@
     pantalla.oncontextmenu = cambiaColor;
 
 
-    function dibujarCirculo(evento) {
-
+    function dibujarCirculo(x,y) {
+        
         if(puedoDibujar) {
-            var x = evento.pageX - pantalla.offsetLeft;
-            var y = evento.pageY - pantalla.offsetTop;
+
             paleta();
             pincel.fillStyle = color;
             pincel.beginPath();
             pincel.arc(x, y, 5, 0, 2 * 3.14);
             pincel.fill();
+            
+            
         }
 
     }
 
-    pantalla.onmousemove = dibujarCirculo;
+    
 
     function habilitarDibujar() {
 
@@ -105,20 +108,44 @@
         puedoDibujar = false;
     }
 
+
+    function controlArea(xCoord,yCoord){
+        if( (xCoord >= 0)&&
+            (xCoord < 4*tamCuad+10 )&&
+            (yCoord >= 0)&&  
+            (yCoord < tamCuad+10)){
+                return false;
+                var estado = "no";
+            } else {
+                return true;
+                var estado = "si"
+            }
+              
+    }
+
+    function capturaPositionMouse(evento){
+        var x = evento.pageX - pantalla.offsetLeft;
+        var y = evento.pageY - pantalla.offsetTop;
+
+        if (controlArea(x,y)){
+        dibujarCirculo(x,y);
+        
+        }
+        
+    }
+
+    pantalla.onmousemove = capturaPositionMouse;
+    
     pantalla.onmousedown = habilitarDibujar;
 
     pantalla.onmouseup = deshabilitarDibujar;
 
+    paleta();
 
 
 
 
-
-</script>
-
-
-
-    
+   
     
 
   
