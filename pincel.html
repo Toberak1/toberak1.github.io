@@ -42,26 +42,33 @@
         var x = evento.pageX - pantalla.offsetLeft;
         var y = evento.pageY - pantalla.offsetTop;
 
-        if ((x < 150) &&
-            (x > 100) &&
-            (y < 50) &&
-            (y > 0)) {
-
-               color="green";
-            } else if((x < 100) &&
-                    (x > 50) &&
-                    (y < 50) &&
-                    (y > 0)) {
+        if ((x < xVerde+tamCuad) &&
+            (x > xVerde) &&
+            (y < yCuad+tamCuad) &&
+            (y > yCuad)) {
+                pincel.strokeStyle = "yellow";
+                pincel.strokeRect(xVerde,yCuad,tamCuad,tamCuad);
+                color="green";
+            } else if((x < xAzul+tamCuad) &&
+                    (x > xAzul) &&
+                    (y < yCuad+tamCuad) &&
+                    (y > yCuad)) {
+                        pincel.strokeStyle = "yellow";
+                        pincel.strokeRect(xAzul,yCuad,tamCuad,tamCuad);
                         color="blue";
-                    } else if ((x < 50) &&
-                                (x > 0) &&
-                                (y < 50) &&
-                                (y > 0)) {
+                    } else if ((x < xRojo+tamCuad) &&
+                                (x > xRojo) &&
+                                (y < yCuad+tamCuad) &&
+                                (y > yCuad)) {
+                                    pincel.strokeStyle = "yellow";
+                                    pincel.strokeRect(xRojo,yCuad,tamCuad,tamCuad);
                                     color="red";
-                                } else if((x < 200) &&
-                                            (x > 150) &&
-                                            (y < 50) &&
-                                            (y > 0)) {
+                                } else if((x < xGris+tamCuad) &&
+                                            (x > xGris) &&
+                                            (y < yCuad+tamCuad) &&
+                                            (y > yCuad)) {
+                                                pincel.strokeStyle = "yellow";
+                                                pincel.strokeRect(xGris,yCuad,tamCuad,tamCuad);
                                                 color="lightgrey";
                                             }
         
