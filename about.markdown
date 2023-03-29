@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: tobe
 title: About
 permalink: /about/
 ---
