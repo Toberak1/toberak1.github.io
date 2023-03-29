@@ -36,13 +36,437 @@
 </header>
 <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <article class="post">
+        <head>
+  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+</head>
 
-  <header class="post-header">
-    <h1 class="post-title">About</h1>
-  </header>
+<div class="home"><h1 class="page-heading">About</h1><!DOCTYPE html>
+<html>
 
-  <div class="post-content">
+<head>
+  <meta charset="utf-8">
+  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+
+  <title>About</title>
+  <style>
+        /* http://meyerweb.com/eric/tools/css/reset/ 
+      v2.0 | 20110126
+      License: none (public domain)
+    */
+/*
+    html, body, div, span, applet, object, iframe,
+    h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+    a, abbr, acronym, address, big, cite, code,
+    del, dfn, em, img, ins, kbd, q, s, samp,
+    small, strike, strong, sub, sup, tt, var,
+    b, u, i, center,
+    dl, dt, dd, ol, ul, li,
+    fieldset, form, label, legend,
+    table, caption, tbody, tfoot, thead, tr, th, td,
+    article, aside, canvas, details, embed, 
+    figure, figcaption, footer, header, hgroup, 
+    menu, nav, output, ruby, section, summary,
+    time, mark, audio, video {
+      margin: 0;
+      padding: 0;
+      border: 0;
+      font-size: 100%;
+      font: inherit;
+      vertical-align: baseline;
+    }
+    /* HTML5 display-role reset for older browsers *//*
+    article, aside, details, figcaption, figure, 
+    footer, header, hgroup, menu, nav, section {
+      display: block;
+    }
+    body {
+      line-height: 1;
+    }
+    ol, ul {
+      list-style: none;
+    }
+    blockquote, q {
+      quotes: none;
+    }
+    blockquote:before, blockquote:after,
+    q:before, q:after {
+      content: '';
+      content: none;
+    }
+    table {
+      border-collapse: collapse;
+      border-spacing: 0;
+    }**/
+    /** RESET CODE ARRIBA */
+    /** RESET CODE ARRIBA */
+    /** RESET CODE ARRIBA */
+    /** RESET CODE ARRIBA */
+
+    * {
+      font-family: 'Lato', sans-serif;
+    }
+
+    body>header>div,
+    body>footer {
+      background-color: #f1f1f1;
+    }
+
+    body {
+      font-family: 'Lato', sans-serif;
+      /*background: #020202;*/
+      /*color: #161616;*/
+
+    }
+    .wrapper {
+      max-width: inherit;
+      max-width: inherit;
+      margin-right: auto;
+      margin-left: auto;
+      padding-left: inherit;
+      padding-right: inherit;
+    }
+
+    .site-title, .site-nav {
+      padding: 0 30px;
+    }
+
+    .container {
+      /*max-width: 800px;*/
+      margin: 0 auto;
+
+    }
+
+    .logo {
+      background-color: black;
+      text-align: center;
+      padding: 20px;
+      
+    }
+
+    .logo img {
+      display: inline-block;
+      height: 300px;
+    }
+
+    .banner {
+      display: flex;
+      flex-direction: column;
+      align-content: center;
+      flex-wrap: wrap;
+      justify-content: center;
+      /*height: 500px;*/
+      align-items: center;
+      padding: 20px;
+      background-image: url('https://toberak.files.wordpress.com/2023/03/nsl-banner-red.png');
+      background-size: cover;
+    }
+
+    .banner a {
+      display: inline-block;
+      color: #fdfdfd;
+      text-align: center;
+      text-decoration: none;
+      font-size: 2.5rem;
+      padding: 10px 20px;
+      margin: 10px;
+      border-radius: 16px;
+    }
+
+    .banner a.youtube {
+      background-color: #FF0000;
+    }
+
+    .banner a.discord {
+      background-color: #7289DA;
+    }
+
+    .banner a.twitter {
+      background-color: #1DA1F2;
+    }
+
+    .text {
+      padding: 20px;
+      color: #f1f1f1;
+
+      text-align: center;
+      width: 40%;
+      border-radius: 16px;
+      background: rgba(0, 0, 0, 0.5);
+      box-shadow: 0 8px 32px 0 rgba(21, 26, 92, 0.37);
+      backdrop-filter: blur(4px);
+      -webkit-backdrop-filter: blur(4px);
+    }
+
+
+    .text h1 {
+      font-size: 36px;
+      margin-bottom: 20px;
+    }
+
+    .text p {
+      font-size: 18px;
+      line-height: 1.5;
+      margin-bottom: 10px;
+
+
+    }
+
+    .rulebooks-section {
+      background-image: url('https://toberak.files.wordpress.com/2023/03/fondo-globo.png');
+      background-color: #000;
+      background-size: cover;
+      background-position: center;
+      padding-top: 80px;
+      padding-bottom: 80px;
+      text-align: center;
+
+    }
+
+    .rulebooks-subtitle {
+      font-size: 2.5rem;
+      margin-bottom: 40px;
+      color: #f1f1f1
+
+    }
+
+    .rulebooks-button {
+      display: inline-block;
+      background-color: #ffffff;
+      
+      padding: 16px 32px;
+      border-radius: 8px;
+      margin: 0 10px;
+      font-size: 1.5rem;
+      text-decoration: none;
+    }
+
+    .award-subtitle {
+      text-align: center;
+      background-color: #00000080;
+      padding: 24px 0;
+      color: #f1f1f1;
+  
+    }
+
+    .section-bg {
+      background-image: url('https://toberak.files.wordpress.com/2023/03/fondo-cr.jpg');
+      background-size: cover;
+      background-position: center;
+
+
+      /*height: 600px;*/
+
+      /* Ajusta la altura según tu necesidad */
+    }
+
+    .text2{
+  
+      
+      padding: 20px;
+      color: #f1f1f1;
+      border-radius: 16px;
+      background: rgba(0, 0, 0, 0.5);
+      box-shadow: 0 8px 32px 0 rgba(21, 26, 92, 0.37);
+      backdrop-filter: blur(4px);
+      -webkit-backdrop-filter: blur(4px);
+    }
+
+    .centered-image {
+      text-align: center;
+      padding-bottom: 24px;
+    }
+
+    .centered-image a {
+      /* display: inline-block;*/
+      /*background-color: #333;*/
+      color: #fff;
+      padding: 12px 24px;
+      border-radius: 4px;
+      text-decoration: none;
+    }
+
+    .centered-image a:hover {
+      transform: scale(0.98);
+      transition: 1s;
+    }
+
+
+    .centered-image img {
+      max-width: 100%;
+      max-height: 100%;
+      border-radius: 16px;
+    }
+
+    .centered-image h2 {
+      background: #00000080;
+      padding: 10px;
+      border-radius: 24px;
+    }
+
+    .section {
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      /*height: 500px;*/
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      padding-bottom: 20px;
+      color: #f1f1f1;
+
+    }
+
+
+    .info h3 {
+      margin-top: 0;
+      font-size: 36px;
+    }
+
+    .info h4,
+    .info h5 {
+      margin: 10px 0;
+      font-size: 24px;
+    }
+
+    .info h5 {
+      margin-top: 20px;
+    }
+
+    .info ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      border-radius: 16px;
+      background: rgba(0, 0, 0, 0.5);
+      box-shadow: 0 8px 32px 0 rgba(21, 26, 92, 0.37);
+      backdrop-filter: blur(4px);
+      -webkit-backdrop-filter: blur(4px);
+      padding: 20px;
+      text-align: left;
+    }
+
+    .info li {
+      margin: 10px 0;
+      font-size: 20px;
+      line-height: 1.5;
+    }
+
+    .imagen-footer {
+      width: 100%;
+      padding-top: 20px;
+    }
+
+    body>footer>div>h2 {
+      color: #555;
+    }
+
+
+    .tituloPrincipal {
+      color: #D8DFE8;
+      font-size: 50px;
+      padding: 50px 0;
+      text-align: center;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+
+    .lista1 {
+      margin: 20px 0;
+      background: #e0dede;
+      background-image: url(/imagenes/bgverde.jpg);
+      background-repeat: no-repeat;
+      background-size: contain;
+      height: 300px;
+      color: #313131;
+      font-size: 18px;
+      margin: 0 20px;
+      padding: 10% 10px;
+      line-height: 2;
+      border-radius: 24px;
+
+    }
+
+    .linksP {
+      text-decoration: solid;
+    }
+
+    .linksP:hover {
+      text-decoration: underline;
+    }
+
+    .logoT {
+      height: 150px;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .toberak {
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 48px;
+      color: #D8DFE8;
+      border-width: 0;
+      text-align: center;
+      padding: 20px;
+
+    }
+
+    .toberak:hover {
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      cursor: pointer;
+      transition: 3s;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .firma {
+      font-size: 12px;
+      color: #D8DFE8;
+      font-weight: 400;
+    }
+
+
+    @media only screen and (max-width: 1200px) {
+      .text {
+        padding: 10px;
+        width: 90%;
+
+      }
+    }
+
+    @media only screen and (max-width: 600px) {
+      .container {
+        max-width: 100%;
+        padding: 0 20px;
+      }
+
+      .logo {
+        padding: 10px;
+      }
+
+      .banner {
+
+        padding: 10px;
+      }
+
+      .text {
+        padding: 10px;
+        width: 90%;
+        background-color: #000;
+      }
+
+      .text h1 {
+        font-size: 24px;
+      }
+
+      .text p {
+        font-size: 16px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div>
     <h3>Get to Know Toberak</h3>
 <p><strong>Toberak</strong> is a highly <strong>creative</strong> and <strong>innovative</strong> person, always seeking new ways to approach problems and find effective technical solutions. His fresh and original approach is reflected in his work as the <strong>founder</strong> of GDT, as well as his collaborations with Matcherino to improve crowdfunding for esports events.</p>
 <p><br /></p>
@@ -51,8 +475,25 @@
 <p>His ability to build strong and meaningful relationships with people is one of the keys to his success. Toberak understands that esports is a diverse and complex community, and he makes sure to listen and collaborate with a wide range of voices and perspectives to create exciting and fun events for everyone. Undoubtedly, his <strong>multifaceted</strong> approach and his ability to relate to others are valuable traits in any field, but especially in the constantly evolving world of esports.</p>
 
   </div>
+</body>
 
-</article>
+</html><h2 class="post-list-heading">Posts</h2>
+    <ul class="post-list"><li><span class="post-meta">Mar 28, 2023</span>
+        <h3>
+          <a class="post-link" href="/2023/03/28/NSL.html">
+            NSL - Awards History
+          </a>
+        </h3></li><li><span class="post-meta">Mar 27, 2023</span>
+        <h3>
+          <a class="post-link" href="/jekyll/update/2023/03/27/welcome-to-jekyll.html">
+            Welcome to Jekyll!
+          </a>
+        </h3></li><li><span class="post-meta">Mar 26, 2023</span>
+        <h3>
+          <a class="post-link" href="/2023/03/26/toberak.html">
+            Toberak&#39;s projects in GDT (need to fix html and css format)
+          </a>
+        </h3></li></ul></div>
 
       </div>
     </main><footer class="site-footer h-card">
