@@ -1,6 +1,6 @@
 ---
 nav_exclude: true
-layout: home
+layout: tobe
 title: 'Acerca de Jekyll md'
 #permalink: /o/jekil-md/ 
 
