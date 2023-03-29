@@ -3,8 +3,10 @@ nav_exclude: true
 layout: home
 title: 'Acerca de Jekyll md'
 #permalink: /o/jekil-md/ 
-nav_exclude: true
+
 ---
+
+
 
 ## Welcome to **toberak1.github.io**
 powered by gitHub pages!
