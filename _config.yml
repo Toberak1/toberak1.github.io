@@ -29,7 +29,8 @@ github_username:  Toberak1
 
 # Build settings
 theme: minima
-
+plugins:
+  - jekyll-feed
 
 
   
