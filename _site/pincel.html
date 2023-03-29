@@ -1,0 +1,160 @@
+<head>pincel v36 <br></head>
+<canvas width="600" height="400" style="cursor:crosshair"> </canvas>
+
+
+<script>
+    var pantalla = document.querySelector('canvas');
+    var pincel = pantalla.getContext('2d');
+
+    pincel.fillStyle = 'lightgrey';
+    pincel.fillRect(0, 0, 600, 400);
+
+    var puedoDibujar = false;
+    var color = "blue";
+
+    //variables para paleta
+    var xRojo = 0;
+    var xAzul = 50;
+    var xVerde = 100;
+    var xGris = 150;
+    var yCuad = 0;
+    var tamCuad = 50;
+  
+    function paleta(){
+        paleta1("red",xRojo,yCuad,tamCuad);
+        paleta1("blue",xAzul,yCuad,tamCuad);
+        paleta1("green",xVerde,yCuad,tamCuad);
+        paleta1("lightgrey",xGris,yCuad,tamCuad);
+    }
+
+    function paleta1(pColor,pX,pY,pTam) {
+        pincel.fillStyle = pColor;
+        pincel.fillRect(pX,pY,pTam,pTam);
+        pincel.strokeStyle = "black";
+        pincel.strokeRect(pX,pY,pTam,pTam);
+
+    }
+    
+        
+
+    function elegirColor(evento){
+
+        var x = evento.pageX - pantalla.offsetLeft;
+        var y = evento.pageY - pantalla.offsetTop;
+
+        if ((x < xVerde+tamCuad) &&
+            (x > xVerde) &&
+            (y < yCuad+tamCuad) &&
+            (y > yCuad)) {
+                pincel.strokeStyle = "yellow";
+                pincel.strokeRect(xVerde,yCuad,tamCuad,tamCuad);
+                color="green";
+            } else if((x < xAzul+tamCuad) &&
+                    (x > xAzul) &&
+                    (y < yCuad+tamCuad) &&
+                    (y > yCuad)) {
+                        pincel.strokeStyle = "yellow";
+                        pincel.strokeRect(xAzul,yCuad,tamCuad,tamCuad);
+                        color="blue";
+                    } else if ((x < xRojo+tamCuad) &&
+                                (x > xRojo) &&
+                                (y < yCuad+tamCuad) &&
+                                (y > yCuad)) {
+                                    pincel.strokeStyle = "yellow";
+                                    pincel.strokeRect(xRojo,yCuad,tamCuad,tamCuad);
+                                    color="red";
+                                } else if((x < xGris+tamCuad) &&
+                                            (x > xGris) &&
+                                            (y < yCuad+tamCuad) &&
+                                            (y > yCuad)) {
+                                                pincel.strokeStyle = "yellow";
+                                                pincel.strokeRect(xGris,yCuad,tamCuad,tamCuad);
+                                                color="lightgrey";
+                                            }
+        
+        console.log( "elegido color: " + color);
+            
+    }
+
+    pantalla.onclick = elegirColor;
+
+
+
+    function cambiaColor(){
+
+        return  false;
+    }
+
+    pantalla.oncontextmenu = cambiaColor;
+
+
+    function dibujarCirculo(x,y) {
+        
+        if(puedoDibujar) {
+
+            paleta();
+            pincel.fillStyle = color;
+            pincel.beginPath();
+            pincel.arc(x, y, 5, 0, 2 * 3.14);
+            pincel.fill();
+            
+            
+        }
+
+    }
+
+    
+
+    function habilitarDibujar() {
+
+        puedoDibujar = true;
+    }
+
+    function deshabilitarDibujar() {
+
+        puedoDibujar = false;
+    }
+
+
+    function controlArea(xCoord,yCoord){
+        if( (xCoord >= 0)&&
+            (xCoord < 4*tamCuad+10 )&&
+            (yCoord >= 0)&&  
+            (yCoord < tamCuad+10)){
+                return false;
+                var estado = "no";
+            } else {
+                return true;
+                var estado = "si"
+            }
+              
+    }
+
+    function capturaPositionMouse(evento){
+        var x = evento.pageX - pantalla.offsetLeft;
+        var y = evento.pageY - pantalla.offsetTop;
+
+        if (controlArea(x,y)){
+        dibujarCirculo(x,y);
+        
+        }
+        
+    }
+
+    pantalla.onmousemove = capturaPositionMouse;
+    
+    pantalla.onmousedown = habilitarDibujar;
+
+    pantalla.onmouseup = deshabilitarDibujar;
+
+    paleta();
+
+
+
+
+   
+    
+
+  
+
+</script>

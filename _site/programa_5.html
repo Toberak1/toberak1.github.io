@@ -1,0 +1,101 @@
+<head> tiro al blanco! <br></head>
+<canvas width="600" height="400" style="cursor:crosshair"> </canvas>
+
+<script>
+    var pantalla = document.querySelector("canvas");
+    var pincel = pantalla.getContext("2d");
+    pincel.fillStyle = "lightgrey"; //propiedad
+    pincel.fillRect(0,0,600,400); //funcion
+
+    var radio = 10;
+    var xAleatorio;
+    var yAleatorio;
+    var x = 0;
+    var y;
+
+    function disenharCircunferecia(x,y,radio,color){
+        pincel.fillStyle=color;
+        pincel.beginPath();
+        pincel.arc(x,y,radio,0,2*Math.PI/*x,y,radio,angulo inicial,angulo final*/);
+        pincel.fill();
+    }
+
+ 
+    function limpiarPantalla(){
+        pincel.clearRect(0,0,600,400);
+        pincel.fillStyle = "lightgrey"; //propiedad
+        pincel.fillRect(0,0,600,400); //funcion
+        
+    }
+
+
+
+    function actualizaRand(){
+        xAleatorio = sortearPosicion(500);
+        yAleatorio = sortearPosicion(320);
+    }
+
+    var xA = 1;
+    var xAleatorio2;
+    var sentido = 1;
+
+    function actualizarPantalla(){
+        xAleatorio2 = xAleatorio+(xA++*sentido);
+        yAleatorio = yAleatorio+1.5;  
+          
+        if (xAleatorio2>600 && xA>100){
+            sentido=-1
+            xA=10;
+        } else if (xAleatorio2<0){
+            sentido=1;
+        }
+
+        limpiarPantalla();
+        disenharObjetivo(xAleatorio2,yAleatorio);
+        
+    }
+
+    function disenharObjetivo(xA,yA){
+
+        disenharCircunferecia(xA,yA,radio +20,"red");
+        disenharCircunferecia(xA,yA,radio +10,"white");
+        disenharCircunferecia(xA,yA,radio,"red");
+    }
+
+    function sortearPosicion(maximo) {
+        return Math.floor(Math.random()*maximo);
+    }
+
+    setInterval(actualizarPantalla,10);
+    setInterval(actualizaRand,2000);
+
+
+    function disparar(evento){
+
+        var x = evento.pageX - pantalla.offsetLeft;
+        var y = evento.pageY - pantalla.offsetTop;
+
+        if ((x < (xAleatorio2) + (2*radio)) &&
+            (x > (xAleatorio2) - (2*radio)) &&
+            (y < (yAleatorio) + (2*radio)) &&
+            (y > (yAleatorio) - (2*radio))) {
+
+                alert("Tiro certero");
+            }
+
+        console.log("target: " + xAleatorio2 + "-" + yAleatorio + "/ mouse: " + x + "-" + y);
+    }
+
+    pantalla.onclick = disparar;
+
+    
+
+
+
+
+    
+    
+
+  
+
+</script>
