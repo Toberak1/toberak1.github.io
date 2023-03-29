@@ -1,8 +1,3 @@
----
-layout: tobe
-title: Acerca Jekyll
-#permalink: /readme/
----
 
 ## Welcome to **toberak1.github.io**
 powered by gitHub pages!
