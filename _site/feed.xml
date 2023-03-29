@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2023-03-29T04:11:36-03:00</updated><id>/feed.xml</id><title type="html">Toberak’s Projects</title><subtitle>Toberak is renowned for founding GDT, an organization for esports events on Discord with official support, focused on Badland Brawl. He has also partnered with Matcherino to enhance crowdfunding and has become a key figure in the development of esports events on an international scale. His ability to organize exciting and fun events has made a significant impact on the gaming community worldwide.</subtitle><entry><title type="html">NSL - Awards History</title><link href="/2023/03/28/NSL.html" rel="alternate" type="text/html" title="NSL - Awards History" /><published>2023-03-28T00:00:00-03:00</published><updated>2023-03-28T00:00:00-03:00</updated><id>/2023/03/28/NSL</id><content type="html" xml:base="/2023/03/28/NSL.html"><![CDATA[<div class="container">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-03-29T18:15:47-03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Toberak’s Projects</title><subtitle>Toberak is renowned for founding GDT, an organization for esports events on Discord with official support, focused on Badland Brawl. He has also partnered with Matcherino to enhance crowdfunding and has become a key figure in the development of esports events on an international scale. His ability to organize exciting and fun events has made a significant impact on the gaming community worldwide.</subtitle><entry><title type="html">NSL - Awards History</title><link href="http://localhost:4000/2023/03/28/NSL.html" rel="alternate" type="text/html" title="NSL - Awards History" /><published>2023-03-28T09:05:31-03:00</published><updated>2023-03-28T09:05:31-03:00</updated><id>http://localhost:4000/2023/03/28/NSL</id><content type="html" xml:base="http://localhost:4000/2023/03/28/NSL.html"><![CDATA[<div class="container">
   <div class="logo">
     <img src="https://toberak.files.wordpress.com/2023/03/logo-nsl-negro.png?w=1024" />
   </div>
@@ -60,7 +60,7 @@
 </div>
 <div>
   <img class="imagen-footer" src="https://toberak.files.wordpress.com/2023/03/nsl-banner-red.png" />
-</div>]]></content><author><name></name></author><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="/jekyll/update/2023/03/27/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2023-03-27T20:41:47-03:00</published><updated>2023-03-27T20:41:47-03:00</updated><id>/jekyll/update/2023/03/27/welcome-to-jekyll</id><content type="html" xml:base="/jekyll/update/2023/03/27/welcome-to-jekyll.html"><![CDATA[<p>You’ll find this post in your <code class="language-plaintext highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="language-plaintext highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+</div>]]></content><author><name></name></author><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/2023/03/27/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2023-03-27T20:41:47-03:00</published><updated>2023-03-27T20:41:47-03:00</updated><id>http://localhost:4000/jekyll/update/2023/03/27/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2023/03/27/welcome-to-jekyll.html"><![CDATA[<p>You’ll find this post in your <code class="language-plaintext highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="language-plaintext highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
 
 <p>Jekyll requires blog post files to be named according to the following format:</p>
 
@@ -76,81 +76,174 @@
 <span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
 <span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
 
-<p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>]]></content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html"><![CDATA[You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.]]></summary></entry><entry><title type="html">Toberak’s projects in GDT (need to fix html and css format)</title><link href="/2023/03/26/toberak.html" rel="alternate" type="text/html" title="Toberak’s projects in GDT (need to fix html and css format)" /><published>2023-03-26T00:00:00-03:00</published><updated>2023-03-26T00:00:00-03:00</updated><id>/2023/03/26/toberak</id><content type="html" xml:base="/2023/03/26/toberak.html"><![CDATA[<p><img src="https://toberak.files.wordpress.com/2023/03/gdt-braker.png?w=750" alt="" class="wp-image-87" />
-<img class="wp-block-cover__image-background wp-image-90" alt="" src="https://toberak.files.wordpress.com/2023/03/kings.png" data-object-fit="cover" /></p>
+<p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>]]></content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html"><![CDATA[You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.]]></summary></entry><entry><title type="html">Toberak’s projects in GDT</title><link href="http://localhost:4000/2023/03/26/toberak.html" rel="alternate" type="text/html" title="Toberak’s projects in GDT" /><published>2023-03-26T00:00:00-03:00</published><updated>2023-03-26T00:00:00-03:00</updated><id>http://localhost:4000/2023/03/26/toberak</id><content type="html" xml:base="http://localhost:4000/2023/03/26/toberak.html"><![CDATA[<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+<style>
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: auto;
+  }
+  .gallery img {
+    width: calc(33.33% - 10px);
+    margin: 5px;
+    cursor: pointer;
+    object-fit: cover;   
+  }
+  .two-images {
+    display: flex;
+    justify-content: center;
+    }
+    .two-images img {
+    width: 40%;
+    }
+    .one-image {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.one-image img {
+  width: 40%;
+}
+.social-link {
+  display: flex;
+  align-items: center;
+  padding: 10px 15px;
+  margin: 5px;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.social-link i {
+  margin-right: 5px;
+  font-size: 24px;
+}
+.discord {
+  background-color: #7289da;
+}
+.twitter {
+  background-color: #1da1f2;
+}
+.youtube {
+  background-color: #ff0000;
+}
+.instagram {
+  background-color: #e1306c;
+}
+.facebook {
+  background-color: #3b5998;
+}
+.code-box {
+  background-color: #f4f4f4;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  font-family: monospace;
+  white-space: pre-wrap;
+  margin: 2rem auto;
+  width: 60%;
+}
+  @media (max-width: 600px) {
+    .gallery img {
+      width: calc(33.33% - 2px);
+      margin: 1px;
+    }
+      .code-box {
+    width: 95%;
+  }
+  }
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.8);
+    display: none;
+    align-items: center;
+    justify-content: center;
+  }
+  .overlay img {
+    max-width: 90%;
+    max-height: 90%;
+  }
+</style>
+</head>
+<body>
+<div class="gallery one-image">
+<img src="https://toberak.files.wordpress.com/2023/03/gdt-braker.png?w=750" alt="" class="wp-image-87" />
+</div>
+
+<div class="one-image">
+<a class="social-link discord" href="https://discord.gg/YuhHVtG"><i class="fab fa-discord"></i>Discord</a>
+<a class="social-link twitter" href="https://www.twitter.com/guerradetribus"><i class="fab fa-twitter"></i>Twitter</a>
+<a class="social-link youtube" href="https://www.youtube.com/channel/UCrlb7pCz22QzowdT5oHYVBw/"><i class="fab fa-youtube"></i>Youtube</a>
+<a class="social-link instagram" href="https://www.instagram.com/gdt.toberak/"><i class="fab fa-instagram"></i>Instagram</a>
+<a class="social-link facebook" href="https://www.facebook.com/gdt.toberak"><i class="fab fa-facebook-f"></i>Facebook</a>
+</div>
+
+<div class="code-box">
 <p><strong>Since 2019 until 2022 building the eSport escene for @BadlandBrawl</strong><br />We began humbly competing among friends, to reach, over more than two years, international competitions with more than 1500 participants, along the way acquiring partnerships with developers and with the largest crowdfunding organization of eSports Matcherino, being successful in each event.<br />This is a <strong>Badland Brawl </strong>esports leagues, tournaments, competitions, events and challenges</p>
+</div>
 
-<p><a href="https://discord.gg/YuhHVtG">Discord</a></p>
+<div class="gallery">
+  <img src="https://toberak.files.wordpress.com/2023/03/gdt.png" alt="Image 1" />
+  <img src="https://toberak.files.wordpress.com/2023/03/gdt_3all.png" alt="Image 2" />
+  <img src="https://toberak.files.wordpress.com/2023/03/gdt_gr2.png" alt="Image 3" />
+  <img src="https://toberak.files.wordpress.com/2023/03/20200720_143239_0001.png" alt="Image 4" />
+  <img src="https://toberak.files.wordpress.com/2023/03/20200721_234422_0000.png" alt="Image 5" />
+  <img src="https://toberak.files.wordpress.com/2023/03/banner-captains-3.png" alt="Image 6" />
+  <img src="https://toberak.files.wordpress.com/2023/03/cotm-abril.png" alt="Image 7" />
+  <img src="https://toberak.files.wordpress.com/2023/03/cotm-sauna-may.png" alt="Image 8" />
+  <img src="https://toberak.files.wordpress.com/2023/03/1st_sponsored.png" alt="Image 9" />
+  <img src="https://toberak.files.wordpress.com/2023/03/gdt.jpg" alt="Image 10" />
+  <img src="https://toberak.files.wordpress.com/2023/03/banner-2-anos.png" alt="Image 11" />
+</div>
 
-<p><a href="https://www.twitter.com/guerradetribus">Twitter</a></p>
 
+
+<div class="code-box">
 <p>Always attentive to what the community suggested, we knew how to position ourselves as the main events for all levels of players.<br />Beginners compete with beginners through our revolutionary category system.<br />Weekly challenges and tournaments, competitions for combos, team leagues, raffles and more!</p>
+</div>
 
-<p><a href="https://www.youtube.com/channel/UCrlb7pCz22QzowdT5oHYVBw/">Youtube</a></p>
 
-<p><a href="https://www.instagram.com/gdt.toberak/">Instagram</a></p>
+<div class="gallery two-images">
+  <img src="https://toberak.files.wordpress.com/2023/03/kings.png" alt="Image 1" />
+  <img src="https://toberak.files.wordpress.com/2023/03/bms_winners.jpg" alt="Image 2" />
+</div>
 
-<p><a href="https://www.facebook.com/gdt.toberak">Facebook</a></p>
+<div class="overlay" onclick="closeOverlay()">
+  <img id="overlay-img" src="" />
+</div>
 
-<figure class="wp-block-image size-large"><img src="https://toberak.files.wordpress.com/2023/03/new-modes-and-prizes-01.png?w=1024" alt="" class="wp-image-109" /></figure>
-<!-- /wp:image -->
+<div class="gallery one-image">
+<img src="https://toberak.files.wordpress.com/2023/03/new-modes-and-prizes-01.png?w=1024" />
+</div>
+<div class="gallery one-image">
+<img src="https://toberak.files.wordpress.com/2023/03/descarga.jpg" />
+</div>
+<br />
+<br />
+<div class="one-image">
+<a class="social-link discord" href="https://discord.gg/YuhHVtG"><i class="fab fa-discord"></i>Discord</a>
+<a class="social-link twitter" href="https://www.twitter.com/guerradetribus"><i class="fab fa-twitter"></i>Twitter</a>
+<a class="social-link youtube" href="https://www.youtube.com/channel/UCrlb7pCz22QzowdT5oHYVBw/"><i class="fab fa-youtube"></i>Youtube</a>
+<a class="social-link instagram" href="https://www.instagram.com/gdt.toberak/"><i class="fab fa-instagram"></i>Instagram</a>
+<a class="social-link facebook" href="https://www.facebook.com/gdt.toberak"><i class="fab fa-facebook-f"></i>Facebook</a>
+</div>
 
-<!-- wp:image {"id":127,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="https://toberak.files.wordpress.com/2023/03/descarga.jpg?w=800" alt="" class="wp-image-127" /></figure>
-<!-- /wp:image -->
+<script>
+function openOverlay(imgSrc) {
+document.getElementById("overlay-img").src = imgSrc;
+document.querySelector(".overlay").style.display = "flex";
+}
+function closeOverlay() {
+document.querySelector(".overlay").style.display = "none";
+}
+document.querySelectorAll(".gallery img").forEach(img => {
+img.addEventListener("click", () => openOverlay(img.src));
+});
+</script>
 
-<!-- wp:gallery {"linkTo":"none"} -->
-<figure class="wp-block-gallery has-nested-images columns-default is-cropped"><!-- wp:image {"id":94,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="https://toberak.files.wordpress.com/2023/03/gdt.png?w=1024" alt="" class="wp-image-94" /></figure>
-<!-- /wp:image -->
-
-<!-- wp:image {"id":95,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="https://toberak.files.wordpress.com/2023/03/gdt_3all.png?w=1024" alt="" class="wp-image-95" /></figure>
-<!-- /wp:image -->
-
-<!-- wp:image {"id":92,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="https://toberak.files.wordpress.com/2023/03/gdt_gr2.png?w=658" alt="" class="wp-image-92" /></figure>
-<!-- /wp:image -->
-
-<!-- wp:image {"id":100,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="https://toberak.files.wordpress.com/2023/03/20200720_143239_0001.png?w=1024" alt="" class="wp-image-100" /></figure>
-<!-- /wp:image -->
-
-<!-- wp:image {"id":96,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="https://toberak.files.wordpress.com/2023/03/20200721_234422_0000.png?w=1024" alt="" class="wp-image-96" /></figure>
-<!-- /wp:image -->
-
-<!-- wp:image {"id":97,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="https://toberak.files.wordpress.com/2023/03/banner-captains-3.png?w=1024" alt="" class="wp-image-97" /></figure>
-<!-- /wp:image -->
-
-<!-- wp:image {"id":98,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="https://toberak.files.wordpress.com/2023/03/cotm-abril.png?w=1024" alt="" class="wp-image-98" /></figure>
-<!-- /wp:image -->
-
-<!-- wp:image {"id":99,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="https://toberak.files.wordpress.com/2023/03/cotm-sauna-may.png?w=1024" alt="" class="wp-image-99" /></figure>
-<!-- /wp:image -->
-
-<!-- wp:image {"id":104,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="https://toberak.files.wordpress.com/2023/03/1st_sponsored.png?w=854" alt="" class="wp-image-104" /></figure>
-<!-- /wp:image -->
-
-<!-- wp:image {"id":112,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="https://toberak.files.wordpress.com/2023/03/gdt.jpg?w=852" alt="" class="wp-image-112" /></figure>
-<!-- /wp:image -->
-
-<!-- wp:image {"id":113,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="https://toberak.files.wordpress.com/2023/03/banner-2-anos.png?w=680" alt="" class="wp-image-113" /></figure>
-<!-- /wp:image --></figure>
-<!-- /wp:gallery -->
-
-<!-- wp:spacer {"height":"50px"} -->
-<div style="height:50px" aria-hidden="true" class="wp-block-spacer"></div>
-<!-- /wp:spacer -->
-
-<!-- wp:image {"id":111,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="https://toberak.files.wordpress.com/2023/03/bms_winners.jpg?w=1024" alt="" class="wp-image-111" /></figure>
-<!-- /wp:image -->
-<p>&lt;/div&gt;&lt;/div&gt;
-<!-- /wp:cover --></p>]]></content><author><name>toberak</name></author><summary type="html"><![CDATA[Since 2019 until 2022 building the eSport escene for @BadlandBrawlWe began humbly competing among friends, to reach, over more than two years, international competitions with more than 1500 participants, along the way acquiring partnerships with developers and with the largest crowdfunding organization of eSports Matcherino, being successful in each event.This is a Badland Brawl esports leagues, tournaments, competitions, events and challenges]]></summary></entry></feed>
+</body>]]></content><author><name>toberak</name></author><summary type="html"><![CDATA[]]></summary></entry></feed>
