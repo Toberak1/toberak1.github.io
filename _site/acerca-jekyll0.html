@@ -1,0 +1,478 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+
+  <title>Acerca de Jekyll</title>
+  <style>
+        /* http://meyerweb.com/eric/tools/css/reset/ 
+      v2.0 | 20110126
+      License: none (public domain)
+    */
+/*
+    html, body, div, span, applet, object, iframe,
+    h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+    a, abbr, acronym, address, big, cite, code,
+    del, dfn, em, img, ins, kbd, q, s, samp,
+    small, strike, strong, sub, sup, tt, var,
+    b, u, i, center,
+    dl, dt, dd, ol, ul, li,
+    fieldset, form, label, legend,
+    table, caption, tbody, tfoot, thead, tr, th, td,
+    article, aside, canvas, details, embed, 
+    figure, figcaption, footer, header, hgroup, 
+    menu, nav, output, ruby, section, summary,
+    time, mark, audio, video {
+      margin: 0;
+      padding: 0;
+      border: 0;
+      font-size: 100%;
+      font: inherit;
+      vertical-align: baseline;
+    }
+    /* HTML5 display-role reset for older browsers *//*
+    article, aside, details, figcaption, figure, 
+    footer, header, hgroup, menu, nav, section {
+      display: block;
+    }
+    body {
+      line-height: 1;
+    }
+    ol, ul {
+      list-style: none;
+    }
+    blockquote, q {
+      quotes: none;
+    }
+    blockquote:before, blockquote:after,
+    q:before, q:after {
+      content: '';
+      content: none;
+    }
+    table {
+      border-collapse: collapse;
+      border-spacing: 0;
+    }**/
+    /** RESET CODE ARRIBA */
+    /** RESET CODE ARRIBA */
+    /** RESET CODE ARRIBA */
+    /** RESET CODE ARRIBA */
+
+    * {
+      font-family: 'Lato', sans-serif;
+    }
+
+    body>header>div,
+    body>footer {
+      background-color: #f1f1f1;
+    }
+
+    body {
+      font-family: 'Lato', sans-serif;
+      /*background: #020202;*/
+      /*color: #161616;*/
+
+    }
+    .wrapper {
+      max-width: inherit;
+      max-width: inherit;
+      margin-right: auto;
+      margin-left: auto;
+      padding-left: inherit;
+      padding-right: inherit;
+    }
+
+    .site-title, .site-nav {
+      padding: 0 30px;
+    }
+
+    .container {
+      /*max-width: 800px;*/
+      margin: 0 auto;
+
+    }
+
+    .logo {
+      background-color: black;
+      text-align: center;
+      padding: 20px;
+      
+    }
+
+    .logo img {
+      display: inline-block;
+      height: 300px;
+    }
+
+    .banner {
+      display: flex;
+      flex-direction: column;
+      align-content: center;
+      flex-wrap: wrap;
+      justify-content: center;
+      /*height: 500px;*/
+      align-items: center;
+      padding: 20px;
+      background-image: url('https://toberak.files.wordpress.com/2023/03/nsl-banner-red.png');
+      background-size: cover;
+    }
+
+    .banner a {
+      display: inline-block;
+      color: #fdfdfd;
+      text-align: center;
+      text-decoration: none;
+      font-size: 2.5rem;
+      padding: 10px 20px;
+      margin: 10px;
+      border-radius: 16px;
+    }
+
+    .banner a.youtube {
+      background-color: #FF0000;
+    }
+
+    .banner a.discord {
+      background-color: #7289DA;
+    }
+
+    .banner a.twitter {
+      background-color: #1DA1F2;
+    }
+
+    .text {
+      padding: 20px;
+      color: #f1f1f1;
+
+      text-align: center;
+      width: 40%;
+      border-radius: 16px;
+      background: rgba(0, 0, 0, 0.5);
+      box-shadow: 0 8px 32px 0 rgba(21, 26, 92, 0.37);
+      backdrop-filter: blur(4px);
+      -webkit-backdrop-filter: blur(4px);
+    }
+
+
+    .text h1 {
+      font-size: 36px;
+      margin-bottom: 20px;
+    }
+
+    .text p {
+      font-size: 18px;
+      line-height: 1.5;
+      margin-bottom: 10px;
+
+
+    }
+
+    .rulebooks-section {
+      background-image: url('https://toberak.files.wordpress.com/2023/03/fondo-globo.png');
+      background-color: #000;
+      background-size: cover;
+      background-position: center;
+      padding-top: 80px;
+      padding-bottom: 80px;
+      text-align: center;
+
+    }
+
+    .rulebooks-subtitle {
+      font-size: 2.5rem;
+      margin-bottom: 40px;
+      color: #f1f1f1
+
+    }
+
+    .rulebooks-button {
+      display: inline-block;
+      background-color: #ffffff;
+      
+      padding: 16px 32px;
+      border-radius: 8px;
+      margin: 0 10px;
+      font-size: 1.5rem;
+      text-decoration: none;
+    }
+
+    .award-subtitle {
+      text-align: center;
+      background-color: #00000080;
+      padding: 24px 0;
+      color: #f1f1f1;
+  
+    }
+
+    .section-bg {
+      background-image: url('https://toberak.files.wordpress.com/2023/03/fondo-cr.jpg');
+      background-size: cover;
+      background-position: center;
+
+
+      /*height: 600px;*/
+
+      /* Ajusta la altura según tu necesidad */
+    }
+
+    .text2{
+  
+      
+      padding: 20px;
+      color: #f1f1f1;
+      border-radius: 16px;
+      background: rgba(0, 0, 0, 0.5);
+      box-shadow: 0 8px 32px 0 rgba(21, 26, 92, 0.37);
+      backdrop-filter: blur(4px);
+      -webkit-backdrop-filter: blur(4px);
+    }
+
+    .centered-image {
+      text-align: center;
+      padding-bottom: 24px;
+    }
+
+    .centered-image a {
+      /* display: inline-block;*/
+      /*background-color: #333;*/
+      color: #fff;
+      padding: 12px 24px;
+      border-radius: 4px;
+      text-decoration: none;
+    }
+
+    .centered-image a:hover {
+      transform: scale(0.98);
+      transition: 1s;
+    }
+
+
+    .centered-image img {
+      max-width: 100%;
+      max-height: 100%;
+      border-radius: 16px;
+    }
+
+    .centered-image h2 {
+      background: #00000080;
+      padding: 10px;
+      border-radius: 24px;
+    }
+
+    .section {
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      /*height: 500px;*/
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      padding-bottom: 20px;
+      color: #f1f1f1;
+
+    }
+
+
+    .info h3 {
+      margin-top: 0;
+      font-size: 36px;
+    }
+
+    .info h4,
+    .info h5 {
+      margin: 10px 0;
+      font-size: 24px;
+    }
+
+    .info h5 {
+      margin-top: 20px;
+    }
+
+    .info ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      border-radius: 16px;
+      background: rgba(0, 0, 0, 0.5);
+      box-shadow: 0 8px 32px 0 rgba(21, 26, 92, 0.37);
+      backdrop-filter: blur(4px);
+      -webkit-backdrop-filter: blur(4px);
+      padding: 20px;
+      text-align: left;
+    }
+
+    .info li {
+      margin: 10px 0;
+      font-size: 20px;
+      line-height: 1.5;
+    }
+
+    .imagen-footer {
+      width: 100%;
+      padding-top: 20px;
+    }
+
+    body>footer>div>h2 {
+      color: #555;
+    }
+
+
+    .tituloPrincipal {
+      color: #D8DFE8;
+      font-size: 50px;
+      padding: 50px 0;
+      text-align: center;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+
+    .lista1 {
+      margin: 20px 0;
+      background: #e0dede;
+      background-image: url(/imagenes/bgverde.jpg);
+      background-repeat: no-repeat;
+      background-size: contain;
+      height: 300px;
+      color: #313131;
+      font-size: 18px;
+      margin: 0 20px;
+      padding: 10% 10px;
+      line-height: 2;
+      border-radius: 24px;
+
+    }
+
+    .linksP {
+      text-decoration: solid;
+    }
+
+    .linksP:hover {
+      text-decoration: underline;
+    }
+
+    .logoT {
+      height: 150px;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .toberak {
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 48px;
+      color: #D8DFE8;
+      border-width: 0;
+      text-align: center;
+      padding: 20px;
+
+    }
+
+    .toberak:hover {
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      cursor: pointer;
+      transition: 3s;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .firma {
+      font-size: 12px;
+      color: #D8DFE8;
+      font-weight: 400;
+    }
+
+
+    @media only screen and (max-width: 1200px) {
+      .text {
+        padding: 10px;
+        width: 90%;
+
+      }
+    }
+
+    @media only screen and (max-width: 600px) {
+      .container {
+        max-width: 100%;
+        padding: 0 20px;
+      }
+
+      .logo {
+        padding: 10px;
+      }
+
+      .banner {
+
+        padding: 10px;
+      }
+
+      .text {
+        padding: 10px;
+        width: 90%;
+        background-color: #000;
+      }
+
+      .text h1 {
+        font-size: 24px;
+      }
+
+      .text p {
+        font-size: 16px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div>
+    <h2>Welcome to <strong>toberak1.github.io</strong></h2>
+    <p>powered by gitHub pages!</p>
+    <br>
+    <br>
+    <br>
+    <p>You can use the <a href="https://github.com/Toberak1/toberak1.github.io/edit/main/README.md">editor on GitHub</a> to maintain and preview the content for your website in Markdown files.</p>
+    <p>Whenever you commit to this repository, GitHub Pages will run <a href="https://jekyllrb.com/">Jekyll</a> to rebuild the pages in your site, from the content in your Markdown files.</p>
+    <h3>Markdown</h3>
+    <p>Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for</p>
+    <pre><code>Syntax highlighted code block
+    
+    # Header 1
+    ## Header 2
+    ### Header 3
+    
+    - Bulleted
+    - List
+    
+    1. Numbered
+    2. List
+    
+    <strong>Bold</strong> and <em>Italic</em> and <code>Code</code> text
+    
+    <a href="url">Link</a> and <img src="src" alt="Image">
+    </code></pre>
+    <p>For more details see <a href="https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax">Basic writing and formatting syntax</a>.</p>
+    <h3>Jekyll Themes</h3>
+    <p>Your Pages site will use the layout and styles from the Jekyll theme you have selected in your <a href="https://github.com/Toberak1/toberak1.github.io/settings/pages">repository settings</a>. The name of this theme is saved in the Jekyll <code>_config.yml</code> configuration file.</p>
+    <h3>Support or Contact</h3>
+    <p>Having trouble with Pages? Check out our <a href="https://docs.github.com/categories/github-pages-basics/">documentation</a> or <a href="https://support.github.com/contact">contact support</a> and we’ll help you sort it out.</p>
+    <h2>How to <strong>post in Jekyll</strong></h2>
+    <p>You’ll find this post in your <code>_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code>jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+    <p>Jekyll requires blog post files to be named according to the following format:</p>
+    <pre><code>YEAR-MONTH-DAY-title.MARKUP
+    </code></pre>
+    <p>Where <code>YEAR</code> is a four-digit number, <code>MONTH</code> and <code>DAY</code> are both two-digit numbers, and <code>MARKUP</code> is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
+    <p>Jekyll also offers powerful support for code snippets:</p>
+    <div class="highlight"><pre><code><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="n">name</span><span class="p">)</span>
+      <span class="nb">puts</span> <span class="s2">"Hi, #{name}"</span>
+    <span class="k">end</span>
+    <span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
+    <span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span>
+    </code></pre></div>
+    <p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>
+    
+  </div>
+</body>
+
+</html>
+

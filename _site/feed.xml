@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-03-29T02:30:21-03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Toberak’s Projects</title><subtitle>Toberak is renowned for founding GDT, an organization for esports events on Discord with official support, focused on Badland Brawl. He has also partnered with Matcherino to enhance crowdfunding and has become a key figure in the development of esports events on an international scale. His ability to organize exciting and fun events has made a significant impact on the gaming community worldwide.</subtitle><entry><title type="html">NSL - Awards History</title><link href="http://localhost:4000/2023/03/28/NSL.html" rel="alternate" type="text/html" title="NSL - Awards History" /><published>2023-03-28T00:00:00-03:00</published><updated>2023-03-28T00:00:00-03:00</updated><id>http://localhost:4000/2023/03/28/NSL</id><content type="html" xml:base="http://localhost:4000/2023/03/28/NSL.html"><![CDATA[<div class="container">
+  <div class="logo">
+    <img src="https://toberak.files.wordpress.com/2023/03/logo-nsl-negro.png?w=1024" />
+  </div>
+</div>
+
+<div class="banner">
+        <div class="text">
+          <h1>No Sweat League</h1>
+          <p>Since 2020 creating Competitive events in @ClashRoyale</p>  
+          <p>We have experience in organizing friendly and inclusive global events since August 2020. Now we are here to continue growing together with you. We also partner with multilingual collaborators to bring amazing events, for the community, by the community.</p>  
+          <p>This is a Clash Royale esports league</p>
+        </div>  
+        <div>
+          <a href="https://www.youtube.com/channel/UC9sEAnMCHfXI7Rx6Ic0NwKw" class="youtube">Youtube</a>
+          <a href="https://discord.gg/P2RYy4R2sr" class="discord">Discord</a>
+          <a href="https://twitter.com/NSL_CR" class="twitter">Twitter</a>
+        </div>
+    </div>
+
+<div class="section-bg">
+   <h2 class="award-subtitle">Award History</h2>
+            <div class="centered-image">  
+              <a href="https://toberak.files.wordpress.com/2023/03/nsl-story.png" target="_blank">
+                <img src="https://toberak.files.wordpress.com/2023/03/nsl-story.png" />
+              </a>
+            </div>
+          <div class="text2">
+            <h4>2020-2021-2022-2023</h4>
+              <p>🥳 We are pleased to announce that we have successfully filled all 32 seats in the first season of NSL Premier Edition!
+              <br /><br />
+                  The first round of NSL Premier Edition will start this Monday 27mar at 00:01 CET onwards.
+              <br /><br />
+                  Other information regarding Group Draw, Scheduling, Result Submission, etc will be announced soon. 
+              <br /><br />
+                  Stay tuned to discord channels / 📢│manager-annoucements-eng 
+              <br /><br />
+                  #NSLisBACK</p>
+          </div>  
+
+</div>
+
+<div class="section" style="background-image: url(https://toberak.files.wordpress.com/2023/03/banner-mid.png);">
+  <div class="info">
+    <h2>Last Champion:</h2>
+    <h3 style="color: yellow; font-weight: bold;">Season 09: Undefined x Washed Players</h3>
+    <h5>Hall of Fame:</h5>
+    <ul>
+      <li>Solo01: #qwerty</li>
+      <li>s08: Rising Sun eSports</li>
+      <li>s07: SUC eSports</li>
+      <li>s06: ACE1</li>
+      <li>s05: TMG eSports</li>
+      <li>s04: Intellectuals PRO</li>
+      <li>s03: TheDarkEmpireEsports</li>
+      <li>s02: Intellectuals NA</li>
+      <li>s01: Delirium Gaming</li>
+    </ul>
+  </div>
+</div>
+<div>
+  <img class="imagen-footer" src="https://toberak.files.wordpress.com/2023/03/nsl-banner-red.png" />
+</div>]]></content><author><name></name></author><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/2023/03/27/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2023-03-27T20:41:47-03:00</published><updated>2023-03-27T20:41:47-03:00</updated><id>http://localhost:4000/jekyll/update/2023/03/27/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2023/03/27/welcome-to-jekyll.html"><![CDATA[<p>You’ll find this post in your <code class="language-plaintext highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="language-plaintext highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+
+<p>Jekyll requires blog post files to be named according to the following format:</p>
+
+<p><code class="language-plaintext highlighter-rouge">YEAR-MONTH-DAY-title.MARKUP</code></p>
+
+<p>Where <code class="language-plaintext highlighter-rouge">YEAR</code> is a four-digit number, <code class="language-plaintext highlighter-rouge">MONTH</code> and <code class="language-plaintext highlighter-rouge">DAY</code> are both two-digit numbers, and <code class="language-plaintext highlighter-rouge">MARKUP</code> is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
+
+<p>Jekyll also offers powerful support for code snippets:</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
+  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
+<span class="k">end</span>
+<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
+<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
+
+<p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>]]></content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html"><![CDATA[You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.]]></summary></entry><entry><title type="html">Toberak’s projects in GDT (need to fix html and css format)</title><link href="http://localhost:4000/2023/03/26/toberak.html" rel="alternate" type="text/html" title="Toberak’s projects in GDT (need to fix html and css format)" /><published>2023-03-26T00:00:00-03:00</published><updated>2023-03-26T00:00:00-03:00</updated><id>http://localhost:4000/2023/03/26/toberak</id><content type="html" xml:base="http://localhost:4000/2023/03/26/toberak.html"><![CDATA[<p><img src="https://toberak.files.wordpress.com/2023/03/gdt-braker.png?w=750" alt="" class="wp-image-87" />
+<img class="wp-block-cover__image-background wp-image-90" alt="" src="https://toberak.files.wordpress.com/2023/03/kings.png" data-object-fit="cover" /></p>
+<p><strong>Since 2019 until 2022 building the eSport escene for @BadlandBrawl</strong><br />We began humbly competing among friends, to reach, over more than two years, international competitions with more than 1500 participants, along the way acquiring partnerships with developers and with the largest crowdfunding organization of eSports Matcherino, being successful in each event.<br />This is a <strong>Badland Brawl </strong>esports leagues, tournaments, competitions, events and challenges</p>
+
+<p><a href="https://discord.gg/YuhHVtG">Discord</a></p>
+
+<p><a href="https://www.twitter.com/guerradetribus">Twitter</a></p>
+
+<p>Always attentive to what the community suggested, we knew how to position ourselves as the main events for all levels of players.<br />Beginners compete with beginners through our revolutionary category system.<br />Weekly challenges and tournaments, competitions for combos, team leagues, raffles and more!</p>
+
+<p><a href="https://www.youtube.com/channel/UCrlb7pCz22QzowdT5oHYVBw/">Youtube</a></p>
+
+<p><a href="https://www.instagram.com/gdt.toberak/">Instagram</a></p>
+
+<p><a href="https://www.facebook.com/gdt.toberak">Facebook</a></p>
+
+<figure class="wp-block-image size-large"><img src="https://toberak.files.wordpress.com/2023/03/new-modes-and-prizes-01.png?w=1024" alt="" class="wp-image-109" /></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"id":127,"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://toberak.files.wordpress.com/2023/03/descarga.jpg?w=800" alt="" class="wp-image-127" /></figure>
+<!-- /wp:image -->
+
+<!-- wp:gallery {"linkTo":"none"} -->
+<figure class="wp-block-gallery has-nested-images columns-default is-cropped"><!-- wp:image {"id":94,"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://toberak.files.wordpress.com/2023/03/gdt.png?w=1024" alt="" class="wp-image-94" /></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"id":95,"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://toberak.files.wordpress.com/2023/03/gdt_3all.png?w=1024" alt="" class="wp-image-95" /></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"id":92,"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://toberak.files.wordpress.com/2023/03/gdt_gr2.png?w=658" alt="" class="wp-image-92" /></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"id":100,"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://toberak.files.wordpress.com/2023/03/20200720_143239_0001.png?w=1024" alt="" class="wp-image-100" /></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"id":96,"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://toberak.files.wordpress.com/2023/03/20200721_234422_0000.png?w=1024" alt="" class="wp-image-96" /></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"id":97,"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://toberak.files.wordpress.com/2023/03/banner-captains-3.png?w=1024" alt="" class="wp-image-97" /></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"id":98,"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://toberak.files.wordpress.com/2023/03/cotm-abril.png?w=1024" alt="" class="wp-image-98" /></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"id":99,"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://toberak.files.wordpress.com/2023/03/cotm-sauna-may.png?w=1024" alt="" class="wp-image-99" /></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"id":104,"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://toberak.files.wordpress.com/2023/03/1st_sponsored.png?w=854" alt="" class="wp-image-104" /></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"id":112,"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://toberak.files.wordpress.com/2023/03/gdt.jpg?w=852" alt="" class="wp-image-112" /></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"id":113,"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://toberak.files.wordpress.com/2023/03/banner-2-anos.png?w=680" alt="" class="wp-image-113" /></figure>
+<!-- /wp:image --></figure>
+<!-- /wp:gallery -->
+
+<!-- wp:spacer {"height":"50px"} -->
+<div style="height:50px" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer -->
+
+<!-- wp:image {"id":111,"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://toberak.files.wordpress.com/2023/03/bms_winners.jpg?w=1024" alt="" class="wp-image-111" /></figure>
+<!-- /wp:image -->
+<p>&lt;/div&gt;&lt;/div&gt;
+<!-- /wp:cover --></p>]]></content><author><name>toberak</name></author><summary type="html"><![CDATA[Since 2019 until 2022 building the eSport escene for @BadlandBrawlWe began humbly competing among friends, to reach, over more than two years, international competitions with more than 1500 participants, along the way acquiring partnerships with developers and with the largest crowdfunding organization of eSports Matcherino, being successful in each event.This is a Badland Brawl esports leagues, tournaments, competitions, events and challenges]]></summary></entry></feed>
