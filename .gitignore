@@ -1,5 +1,5 @@
-
-#.sass-cache
+_ignore
+.sass-cache
 .jekyll-cache
 .jekyll-metadata
 vendor
