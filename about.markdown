@@ -2,7 +2,7 @@
 layout: tobe
 title: About
 permalink: /about/
-nav_exclude: true
+#nav_exclude: true
 ---
 
 <h3>Get to Know Toberak</h3>
