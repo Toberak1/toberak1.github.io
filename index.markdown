@@ -12,7 +12,7 @@ Title: Home
     background-size: cover;
 }
 .page-content div.wrapper {
-    width: 800px;
+    /*width: 800px;*/
     padding: 2.5rem;
     background: #e9a3a34d;
     box-shadow: 0 8px 32px 0 #0000006b;
